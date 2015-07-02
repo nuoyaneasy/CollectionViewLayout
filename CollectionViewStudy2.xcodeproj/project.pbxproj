@@ -14,6 +14,7 @@
 		716BED991B44403E004E4619 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716BED981B44403E004E4619 /* Images.xcassets */; };
 		716BED9C1B44403E004E4619 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716BED9A1B44403E004E4619 /* LaunchScreen.xib */; };
 		716BEDA81B44403E004E4619 /* CollectionViewStudy2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716BEDA71B44403E004E4619 /* CollectionViewStudy2Tests.m */; };
+		716BEDB31B444209004E4619 /* CYCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 716BEDB21B444209004E4619 /* CYCollectionViewLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		716BEDA11B44403E004E4619 /* CollectionViewStudy2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewStudy2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		716BEDA61B44403E004E4619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		716BEDA71B44403E004E4619 /* CollectionViewStudy2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewStudy2Tests.m; sourceTree = "<group>"; };
+		716BEDB11B444209004E4619 /* CYCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYCollectionViewLayout.h; sourceTree = "<group>"; };
+		716BEDB21B444209004E4619 /* CYCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCollectionViewLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				716BED901B44403E004E4619 /* AppDelegate.m */,
 				716BED921B44403E004E4619 /* ViewController.h */,
 				716BED931B44403E004E4619 /* ViewController.m */,
+				716BEDB11B444209004E4619 /* CYCollectionViewLayout.h */,
+				716BEDB21B444209004E4619 /* CYCollectionViewLayout.m */,
 				716BED951B44403E004E4619 /* Main.storyboard */,
 				716BED981B44403E004E4619 /* Images.xcassets */,
 				716BED9A1B44403E004E4619 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				716BEDB31B444209004E4619 /* CYCollectionViewLayout.m in Sources */,
 				716BED941B44403E004E4619 /* ViewController.m in Sources */,
 				716BED911B44403E004E4619 /* AppDelegate.m in Sources */,
 				716BED8E1B44403E004E4619 /* main.m in Sources */,

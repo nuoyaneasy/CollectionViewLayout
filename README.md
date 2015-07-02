@@ -1,0 +1,3 @@
+# CollectionViewLayout
+一个CollectionViewLayout的自定义。
+通过重写UICollectionViewLayout的prepareLayout方法，自定义列数以及cell的间隔，来设置每个collectionViewCell的frame。
